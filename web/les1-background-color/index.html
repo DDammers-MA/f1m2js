@@ -8,38 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="kopje">museum online javascript</h1>
+    <h1>Change Colors</h1>
+    <p class="choice" id="achtergrondRood">achtergrond Rood</p>
+    <p class="choice" id="achtergrondGroen">achtergrond Groen</p>
+    <p class="choice" id="achtergrondBlauw">achtergrond Blauw</p>
+    <p class="choice" id="voorgrondCyaan">voorgrond Cyaan</p>
+    <p class="choice" id="voorgrondGeel">voorgrond Geel</p>
+    <p class="choice" id="voorgrondMagenta">voorgrond Magenta</p>
    
 
     <script>
-        const kopje = document.getElementById("kopje");
-        const mkBlauw = document.getElementById('mkBlauw');
-        const mkGroen = document.getElementById('mkGroen')
-
-        kopje.style.backgroundColor = "crimson";
-
-        kopje.addEventListener('click',voeruitKopje);
-        mkBlauw.addEventListener('click',voeruitBlauw);
-        mkGroen.addEventListener('click',voeruitGroen);
         
-        function voeruitKopje(){
-            kopje.style.backgroundColor = "yellow";
-            kopje.style.color = "black";
-        }
+        const achtergrondRood = document.getElementById('achtergrondRood');
+        const achtergrondGroen = document.getElementById('achtergrondGroen');
+        const achtergrondBlauw = document.getElementById('achtergrondBlauw');
+        const voorgrondCyaan = document.getElementById('voorgrondCyaan');
+        const voorgrondGeel = document.getElementById('voorgrondGeel');
+        const voorgrondMagenta = document.getElementById('voorgrondMagenta');
 
-        function voeruitBlauw(){
-            document.body.style.backgroundColor = "blue";
-            document.body.style.color = "white";
-            kopje.style.backgroundColor = "white";
-            kopje.style.color = "black";
-        }
+        achtergrondRood.addEventListener('click',maakAchtergrondRood);
+        achtergrondGroen.addEventListener('click',maakAchtergrondGroen);
+        achtergrondBlauw.addEventListener('click',maakAchtergrondBlauw);
+        voorgrondCyaan.addEventListener('click',maakVoorgrondCyaan);
+        voorgrondGeel.addEventListener('click',maakVoorgrondGeel);
+        voorgrondMagenta.addEventListener('click',maakVoorgrondMagenta);
 
-        function voeruitGroen(){
+        function maakAchtergrondRood(){
+            document.body.style.backgroundColor = "red";
+        }
+        
+        function maakAchtergrondGroen(){
             document.body.style.backgroundColor = "green";
         }
 
+        function maakAchtergrondBlauw(){
+            document.body.style.backgroundColor = "blue";
+        }
 
+        function maakVoorgrondCyaan(){
+            document.body.style.color = "cyan";
+        }
 
+        function maakVoorgrondGeel(){
+            document.body.style.color = "yellow";
+        }
+
+        function maakVoorgrondMagenta(){
+            document.body.style.color = "magenta";
+        }
     </script>
     
 </body>

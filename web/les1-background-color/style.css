@@ -2,3 +2,27 @@ body{
     background-color: crimson;
     color: cyan;
 }
+.choice {
+    width: 12em;
+    height: 2em;
+    padding: 10px;
+    border: 2px black solid;
+    margin: 20px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
