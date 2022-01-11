@@ -3,7 +3,7 @@
 
 ## hier onder staan de links naar de opdrachten.
 
-[opdracht 1](https://33257.hosts1.ma-cloud.nl/les1-background-color/)
-[opdracht 2](http://33257.hosts1.ma-cloud.nl/f1m2js/)
-[opdracht 3](https://33257.hosts1.ma-cloud.nl/les3%20tentoonstelling/)
-[opdracht 4](https://33257.hosts1.ma-cloud.nl/seizoen/)
+[opdracht 1](https://33257.hosts1.ma-cloud.nl/web/les1/)
+[opdracht 2](https://33257.hosts1.ma-cloud.nl/web/les2/)
+[opdracht 3](https://33257.hosts1.ma-cloud.nl/web/les3/)
+[opdracht 4](https://33257.hosts1.ma-cloud.nl/web/les4/)
