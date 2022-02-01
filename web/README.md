@@ -1,7 +1,7 @@
 # fase 1 module 2 museum online
-## java 
+## javascript
 
-## hie is de pagina waar de opdrachten opstaan [link naar opdragt pagina](http://33257.hosts1.ma-cloud.nl/web/js%20pagina/)
+## hier is de pagina waar de opdrachten opstaan [link naar opdragt pagina](http://33257.hosts1.ma-cloud.nl/web/js%20pagina/)
 
 
 
