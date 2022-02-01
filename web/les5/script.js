@@ -33,6 +33,7 @@ let lokaties = [
             "west":2,
             "oost":5,
             "zuid":4,
+            "noord":0,
         }
     
     },  
