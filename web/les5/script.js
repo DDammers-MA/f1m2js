@@ -8,10 +8,10 @@ const KnopZuid = document.getElementById('KnopZuid');
 const KnopWest = document.getElementById('KnopWest');
 
 let directionButton ={
-    "noord": document.getElementById('KnopNoord');
-    "oost": document.getElementById('KnopOost');
-    "zuid": document.getElementById('KnopZuid');
-    "west": document.getElementById('KnopWest');
+    "noord": document.getElementById('KnopNoord'),
+    "oost": document.getElementById('KnopOost'),
+    "zuid": document.getElementById('KnopZuid'),
+    "west": document.getElementById('KnopWest'),
 }
 
 
